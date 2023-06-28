@@ -1,10 +1,14 @@
 .chatMessage {
+  display: flex;
+
   margin-bottom: 20px;
+
+  padding: 10px;
 
   color: black;
   background-color: whitesmoke;
 
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .chatMessage:last-child {

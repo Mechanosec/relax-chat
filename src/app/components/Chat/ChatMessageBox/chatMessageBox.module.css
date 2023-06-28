@@ -1,7 +1,7 @@
 .chatMessageBox {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: flex-start;
 
   margin-top: auto;
   margin-left: 20px;
