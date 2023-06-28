@@ -1,0 +1,12 @@
+.chatMessage {
+  margin-bottom: 20px;
+
+  color: black;
+  background-color: whitesmoke;
+
+  border-radius: 20px;
+}
+
+.chatMessage:last-child {
+  margin-bottom: 0;
+}

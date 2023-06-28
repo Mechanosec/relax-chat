@@ -1,0 +1,16 @@
+.chatWindow {
+  width: 100%;
+  max-width: 750px;
+  height: 100%;
+  max-height: 650px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 20px;
+
+  background-color: rgb(0, 177, 64);
+  border-radius: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
