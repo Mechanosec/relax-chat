@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: blanchedalmond;
   color: rgb(var(--foreground-rgb));
-  padding: 10px;
+  padding: 3px;
 }
