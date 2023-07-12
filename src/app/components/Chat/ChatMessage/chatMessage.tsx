@@ -1,9 +1,10 @@
+import { FC } from "react";
 import style from "./chatMessage.module.css";
 
-export const ChatMessage = () => {
+export const ChatMessage: FC<{ text: string }> = ({ text }) => {
   return (
     <div className={style.chatMessage}>
-      <p>Some message</p>
+      <p>{text}</p>
     </div>
   );
 };

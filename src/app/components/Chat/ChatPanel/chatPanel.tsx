@@ -1,10 +1,23 @@
+import { ChangeEvent, FC } from "react";
 import style from "./chatPanel.module.css";
 
-export const ChatPanel = () => {
+interface IChatPanel {
+  addMessage: () => void;
+  handleInputChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  inputValue: string;
+}
+
+export const ChatPanel: FC<IChatPanel> = ({
+  addMessage,
+  handleInputChange,
+  inputValue,
+}) => {
   return (
     <div className={style.chatPanel}>
-      <button type="submit">Send</button>
-      <input type="text" />
+      <button type="submit" onClick={addMessage}>
+        Send
+      </button>
+      <input type="text" value={inputValue} onChange={handleInputChange} />
     </div>
   );
 };
